@@ -15,6 +15,7 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
     }
 
     buildTypes {
@@ -63,4 +64,10 @@ dependencies {
     //Glide
     implementation "com.github.bumptech.glide:glide:$glide"
     kapt "com.github.bumptech.glide:compiler:$glide"
+
+    //Recyclerview
+    implementation "androidx.recyclerview:recyclerview:$recyclerView"
+
+    //Swiperefreshlayout
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:$swipeRefresh"
 }

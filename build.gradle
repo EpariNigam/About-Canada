@@ -19,6 +19,8 @@ buildscript {
         okhttp = "4.0.1"
         fragment = "1.2.5"
         glide = "4.11.0"
+        recyclerView = "1.1.0"
+        swipeRefresh = "1.1.0"
     }
 }
 
